@@ -10,7 +10,7 @@ from torchmetrics.detection.mean_ap import MeanAveragePrecision
 from torchmetrics.detection.ciou import CompleteIntersectionOverUnion
 from transformers.image_transforms import center_to_corners_format
 
-login(token = "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")
+login(token = "")
 
 def get_input(data):
     input = data ["validation"]["objects"]
