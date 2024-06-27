@@ -20,10 +20,10 @@ import wandb
 import os
 from PIL import Image
 
-login(token = "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",write_permission=True)
+login(token = "",write_permission=True)
 
 wandb.require("core")
-wandb.login(key="50fab2f77ffff70683488f0dd4ca18d5f53e376f")
+wandb.login(key="")
 
 
 os.environ["WANDB_PROJECT"] = "detr-res50-coco-caronly" 
